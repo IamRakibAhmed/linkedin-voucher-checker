@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Logs and databases
+logs/
+*.log
+*.sqlite3
+
+# Virtual environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm specific files
+.idea/
+*.iml
+*.iws
+
+# VS Code specific files
+.vscode/
+
+# Test result directories
+.junit/
+coverage/
+.cache/
+pytest_cache/
+
+# Temporary files
+*.swp
+*.tmp
+*.temp
+*.pid
+*.gz
+*.zip
+*.tar
+
+# Credentials or config files
+*.env
+*.secret
+urls.xlsx
+
+# Excel file backups (if applicable)
+*.xlsx~
+~$*.xlsx
+
+# Generated artifacts
+dist/
+build/
+*.egg-info/
